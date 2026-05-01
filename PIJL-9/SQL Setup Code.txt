@@ -1,0 +1,19 @@
+-- Create and use database
+CREATE DATABASE IF NOT EXISTS restaurant_db;
+USE restaurant_db;
+
+-- Create Restaurant table
+CREATE TABLE Restaurant (
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(100),
+    Address VARCHAR(200)
+);
+
+-- Create MenuItem table
+CREATE TABLE MenuItem (
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(100),
+    Price DECIMAL(10,2),
+    ResId INT,
+    FOREIGN KEY (ResId) REFERENCES Restaurant(Id)
+);

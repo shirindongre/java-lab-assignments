@@ -1,0 +1,7 @@
+studentId,name,branch,marks1,marks2,marks3,marks4,marks5,percentage
+101,Raj Kumar,CSE,85,90,88,92,87,88.4
+103,Amit Patel,Mechanical,88,86,84,87,85,86.0
+104,Neha Singh,Electrical,92,89,91,90,94,91.2
+105,Vikram Reddy,Civil,79,81,78,80,82,80.0
+104,Neha Singh,Electrical,92,89,91,0,0,54.4
+105,Vikram Reddy,Civil,79,81,78,0,0,47.6
